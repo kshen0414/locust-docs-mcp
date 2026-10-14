@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "locustDocs": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["${workspaceFolder}/server.py"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}

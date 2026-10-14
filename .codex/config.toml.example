@@ -1,0 +1,10 @@
+[mcp_servers.locustDocs]
+command = "python"
+args = ["C:/absolute/path/to/locust-docs-mcp/server.py"]
+cwd = "C:/absolute/path/to/locust-docs-mcp"
+startup_timeout_sec = 10
+tool_timeout_sec = 60
+enabled = true
+required = false
+default_tools_approval_mode = "auto"
+enabled_tools = ["search", "fetch"]
